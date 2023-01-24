@@ -4,10 +4,10 @@ public class FindSumOfGpSeries {
         Scanner sc=new Scanner(System.in);
         //a is the first term of series
         double a=sc.nextDouble();
-        //n is the number of terms
-        int n=sc.nextInt();
         //r is common ratio
         double r=sc.nextDouble();
+        //n is the number of terms
+        int n=sc.nextInt();        
         double sum=0;
         // initialize temp as a
         double temp=a;
